@@ -2,7 +2,7 @@ const col2 = document.getElementById("col2");
 
 $(document).ready(function () {
     $.ajax({
-        url: "https://api-services-mocha.vercel.app/browse",
+        url: "https://hanipa.vercel.app/browse",
         type: "GET",
         dataType: "json",
         success: async function (data) {
