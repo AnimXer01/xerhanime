@@ -20,7 +20,7 @@ const tlt = document.querySelector('title');
 
 $(document).ready(function () {
     $.ajax({
-            url: `https://hanime.tv/api/hanime/getVideo/player?id=${id}`,
+            url: `https://hani.nsdev.ml/getVideo/player?id=${id}`,
             type: "GET",
             dataType: "json",
             success: async function (data) {
@@ -29,7 +29,7 @@ $(document).ready(function () {
             }
         })
     $.ajax({
-        url: `https://hanime.tv/api/hentai/getInfo?id=${id}`,
+        url: `https://hani.nsdev.ml/getInfo?id=${id}`,
         type: "GET",
         dataType: "json",
         success: async function (data) {
