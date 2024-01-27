@@ -8,7 +8,7 @@ hidres.style.display = "none";
 document.getElementById("search").value = q;
 
 $.ajax({
-    url: `https://hanime.tv/api/hanime/search`,
+    url: `https://hani.nsdev.ml/search`,
     data: JSON.stringify({
         "search": q,
         "tags": [],
