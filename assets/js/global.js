@@ -3,7 +3,7 @@ const api_version = document.getElementById('api_v');
 //check if the api_v is there
 
 $.ajax({
-    url: 'https://hanime.tv/api/hanime/',
+    url: 'https://hanipa.vercel.app/',
     type: 'GET',
     dataType: 'json',
     success: async function (data) {
