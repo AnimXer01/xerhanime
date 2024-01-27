@@ -8,7 +8,7 @@ hidres.style.display = "none";
 document.getElementById("search").value = q;
 
 $.ajax({
-    url: `https://api-services-mocha.vercel.app/search`,
+    url: `https://hanipa.vercel.app/search`,
     data: JSON.stringify({
         "search": q,
         "tags": [],
