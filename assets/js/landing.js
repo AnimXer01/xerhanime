@@ -7,7 +7,7 @@ content.style.display = 'none';
 
 $(document).ready(function () {
     $.ajax({
-        url: 'https://hanime.tv/api/hanime/getLanding/recent',
+        url: 'https://hani.nsdev.ml/getLanding/recent',
         type: 'GET',
         dataType: 'json',
         success: async function (data) {
@@ -27,7 +27,7 @@ $(document).ready(function () {
         },
     })
     $.ajax({
-        url: 'https://hanime.tv/api/hanime/getLanding/newest',
+        url: 'https://hani.nsdev.ml/getLanding/newest',
         type: 'GET',
         dataType: 'json',
         cache: false,
@@ -47,7 +47,7 @@ $(document).ready(function () {
         },
     })
     $.ajax({
-        url: 'https://hanime.tv/api/hanime/getLanding/trending',
+        url: 'https://hani.nsdev.ml/getLanding/trending',
         type: 'GET',
         dataType: 'json',
         cache: false,
