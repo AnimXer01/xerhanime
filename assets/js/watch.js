@@ -20,7 +20,7 @@ const tlt = document.querySelector('title');
 
 $(document).ready(function () {
     $.ajax({
-            url: `https://api-services-mocha.vercel.app/getVideo/player?id=${id}`,
+            url: `https://hanime.tv/getVideo/player?id=${id}`,
             type: "GET",
             dataType: "json",
             success: async function (data) {
@@ -29,7 +29,7 @@ $(document).ready(function () {
             }
         })
     $.ajax({
-        url: `https://api-services-mocha.vercel.app/getInfo?id=${id}`,
+        url: `https://hanime.tv/getInfo?id=${id}`,
         type: "GET",
         dataType: "json",
         success: async function (data) {
