@@ -7,7 +7,7 @@ content.style.display = 'none';
 
 $(document).ready(function () {
     $.ajax({
-        url: 'https://hanipa.vercel.app/getLanding/recent',
+        url: 'https://api-services-mocha.vercel.app/getLanding/recent',
         type: 'GET',
         dataType: 'json',
         success: async function (data) {
@@ -27,7 +27,7 @@ $(document).ready(function () {
         },
     })
     $.ajax({
-        url: 'https://hanipa.vercel.app/getLanding/newest',
+        url: 'https://api-services-mocha.vercel.app/getLanding/newest',
         type: 'GET',
         dataType: 'json',
         cache: false,
@@ -47,7 +47,7 @@ $(document).ready(function () {
         },
     })
     $.ajax({
-        url: 'https://hanipa.vercel.app/getLanding/trending',
+        url: 'https://api-services-mocha.vercel.app/getLanding/trending',
         type: 'GET',
         dataType: 'json',
         cache: false,
