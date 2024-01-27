@@ -13,7 +13,7 @@ const tlt = document.querySelector('title');
 
 $(document).ready(function () {
     $.ajax({
-        url: `https://hanipa.vercel.app/browse/hentai-tags/${t}/${p}`,
+        url: `https://api-services-mocha.vercel.app/browse/hentai-tags/${t}/${p}`,
         type: "GET",
         dataType: "json",
         success: async function (data) {
